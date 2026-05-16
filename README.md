@@ -6,8 +6,6 @@ Numerical solver in C for a 2D Poisson boundary value problem, comparing three i
 2. **Multigrid V-cycle** (recursive generalisation of the two-grid scheme)
 3. **Conjugate gradient** preconditioned by the two-grid method
 
-> MATH-H401 — Numerical methods — Université Libre de Bruxelles, École Polytechnique de Bruxelles
-> Author: Yvahn Sancar — Academic year 2022–2023
 
 ## Problem
 
