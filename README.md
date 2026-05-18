@@ -133,7 +133,7 @@ end for
 | Direct UMFPACK reference        | ‖r‖ ≈ 2·10⁻¹⁵ (unit roundoff)                                             |
 | Two-grid                        | Reaches unit roundoff in ≈ 21 cycles                                      |
 | Multigrid V-cycle (levels 2–6)  | Reaches unit roundoff in ≈ 22–25 cycles regardless of level               |
-| CG + two-grid preconditioner    | Plateaus at ≈ 10⁻¹¹ in 9–11 iterations (residual stalls — see report §5)  |
+| CG + two-grid preconditioner    | Plateaus at ≈ 10⁻¹¹ in 9–11 iterations                                    |
 
 The conjugate gradient stagnation is attributed to error introduced when computing vₘ = B⁻¹ rₘ; switching to a flexible CG variant would likely fix it.
 
